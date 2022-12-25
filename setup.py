@@ -20,8 +20,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "./ecrypto"},
-    packages=setuptools.find_packages(where="ecrypto"),
     python_requires=">=3.7.9",
     install_requires=[
        "python-binance>=1.0.15",
